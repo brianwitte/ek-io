@@ -1,0 +1,79 @@
+# Ignore binary executables
+ek_test
+*.o
+*.out
+*.a
+*.so
+*.dylib
+*.exe
+
+# Ignore build artifacts
+/build/
+/obj/
+/bin/
+/lib/
+
+# Ignore backup and temporary files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Ignore generated dependency files
+*.d
+
+# Ignore core dump files
+core
+core.*
+
+# Ignore directory-specific caches and logs
+*.DS_Store
+*.directory
+*.AppleDouble
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.localized
+.Trashes
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore Makefile intermediate files
+*.dSYM/
+Makefile.in
+Makefile~
+
+# Ignore CMake artifacts if used in the future
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+build/
+
+# Ignore pkg-config files
+*.pc
+
+# Ignore auto-generated files from configure scripts (if applicable)
+configure
+config.log
+config.status
+autom4te.cache/
+
+# Ignore coverage files
+*.gcno
+*.gcda
+*.gcov
+
+# Ignore documentation or doxygen build files
+docs/html/
+docs/latex/
+
+# Ignore test or temporary directories
+/tests/output/
+*.testlog
